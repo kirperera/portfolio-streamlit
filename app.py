@@ -354,7 +354,7 @@ def main():
 def show_about_me():
     # Profile Header with particles and animation
     try:
-        profile_image = Image.open("assets/profile_photo.jpg")
+        profile_image = Image.open("../../../portfolio/assets/profile_photo.jpg")
 
         # Create columns to center the image
         col1, col2, col3 = st.columns([1, 1, 1])
