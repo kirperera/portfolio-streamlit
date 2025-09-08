@@ -620,7 +620,7 @@ def show_contact():
             <strong><span class="animated-icon">💼</span> LinkedIn:</strong> www.linkedin.com/in/imanrandilaperera
         </div>
         <div class="contact-item">
-            <strong><span class="animated-icon">🐙</span> GitHub:</strong> github.com/iman-perera
+            <strong><span class="animated-icon">🐙</span> GitHub:</strong> https://github.com/kirperera
         </div>
         <div class="contact-item">
             <strong><span class="animated-icon">📍</span> Location:</strong> Embilipitiya, Sabaragamuwa province, Sri Lanka
