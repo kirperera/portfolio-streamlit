@@ -665,7 +665,7 @@ def show_contact():
     st.markdown("""
     <div class="project-card" style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; text-align: center;">
         <h3><span class="animated-icon">🚀</span> Ready to Collaborate?</h3>
-        <p>Whether you have a project idea, want to discuss data science trends, or just want to connect, I'd love to hear from you!</p>
+        <p>Whether you have a project idea, want to discuss data science trends, or just want to connec, I'd love to hear from you!</p>
         <p><strong>Let's build something amazing together! </strong><span class="animated-icon">✨</span></p>
     </div>
     """, unsafe_allow_html=True)
