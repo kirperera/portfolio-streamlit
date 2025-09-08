@@ -96,7 +96,7 @@ def load_css():
         margin-bottom: 0.5rem;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     }
-    
+
     .profile-photo {
     width: 180px;
     height: 180px;
@@ -112,7 +112,7 @@ def load_css():
     z-index:2;
     animation: fadeInUp 1s ease-out 0.3s both;
     }
-    
+
     .profile-photo:hover {
     transform: scale(1.1) rotate(5deg);
     box-shadow: 0 12px 40px rgba(0,0,0,0.4), 
@@ -120,7 +120,7 @@ def load_css():
                 0 0 30px rgba(102, 126, 234, 0.6);
     animation: float 3s ease-in-out infinite;
     }   
-    
+
     .profile-photo-container {
     position: relative;
     z-index: 2;
@@ -351,6 +351,8 @@ def main():
         show_resume()
     elif page == "📞 Contact":
         show_contact()
+
+
 def show_about_me():
     # Profile Header with particles and animation
     try:
@@ -398,7 +400,7 @@ def show_about_me():
 
         with skills_col1:
             st.markdown("**Programming Languages**")
-            skills = ["Python", "C", "SQL", "HTML","Java"]
+            skills = ["Python", "C", "SQL", "HTML", "Java"]
             for skill in skills:
                 st.markdown(f'<span class="skill-tag">{skill}</span>', unsafe_allow_html=True)
 
@@ -620,7 +622,7 @@ def show_contact():
             <strong><span class="animated-icon">💼</span> LinkedIn:</strong> www.linkedin.com/in/imanrandilaperera
         </div>
         <div class="contact-item">
-            <strong><span class="animated-icon">🐙</span> GitHub:</strong> https://github.com/kirperera
+            <strong><span class="animated-icon">🐙</span> GitHub:</strong> github.com/iman-perera
         </div>
         <div class="contact-item">
             <strong><span class="animated-icon">📍</span> Location:</strong> Embilipitiya, Sabaragamuwa province, Sri Lanka
