@@ -189,7 +189,7 @@ def load_css():
     }
 
     .project-card {
-        background: linear-gradient(135deg, #ffffff, #f8f9fa);
+        background: linear-gradient(135deg, #764ba2 50%, #f093fb 100%);
         padding: 2rem;
         border-radius: 15px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -400,7 +400,7 @@ def show_about_me():
 
         with skills_col1:
             st.markdown("**Programming Languages**")
-            skills = ["Python", "C", "SQL", "HTML", "Java"]
+            skills = ["Python", "SQL", "JAVA", "C", "HTML"]
             for skill in skills:
                 st.markdown(f'<span class="skill-tag">{skill}</span>', unsafe_allow_html=True)
 
@@ -483,7 +483,7 @@ def show_projects():
                 unsafe_allow_html=True)
 
     st.write(
-        "Here are some of the projects I've worked on. Each project demonstrates different aspects of data science and machine learning.")
+        "Here are some of the projects I've worked on. Each project demonstrates different aspects not only of data science and machine learning but also diiferent scopes like web development.")
 
     # Project 1 - Enhanced with more visual appeal
     st.markdown("""
@@ -665,7 +665,7 @@ def show_contact():
     st.markdown("""
     <div class="project-card" style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; text-align: center;">
         <h3><span class="animated-icon">🚀</span> Ready to Collaborate?</h3>
-        <p>Whether you have a project idea, want to discuss data science trends, or just want to connec, I'd love to hear from you!</p>
+        <p>Whether you have a project idea, want to discuss data science trends, or just want to connect, I'd love to hear from you!</p>
         <p><strong>Let's build something amazing together! </strong><span class="animated-icon">✨</span></p>
     </div>
     """, unsafe_allow_html=True)
