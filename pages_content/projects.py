@@ -11,7 +11,7 @@ def render():
         for d in p.domain:
             all_domains.add(d)
             
-    selected_domains = st.pills("Filter by Domain", list(all_domains), default=list(all_domains))
+    selected_domains = st.pills("Filter by Domain", list(all_domains), default=list(all_domains), selection_mode="multi")
     st.markdown('</div>', unsafe_allow_html=True)
     
     for project in PROJECTS:
