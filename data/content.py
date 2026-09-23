@@ -3,11 +3,11 @@ from dataclasses import dataclass, field
 @dataclass
 class Profile:
     name: str = "Iman Perera"
-    title: str = "Intern – Data Science & Machine Learning"
+    title: str = "Data Porfessional | Machine Learning Enthusiast | GIS Analyst"
     location: str = "Colombo, Sri Lanka"
     email: str = "kimanrandilaperera@gmail.com"
     phone: str = "+94 76 292 5854"
-    linkedin: str = "[FILL: LinkedIn URL]"
+    linkedin: str = "https://www.linkedin.com/in/imanrandilaperera/"
     github: str = "kirperera"
     summary: str = (
         "Motivated Information Systems undergraduate with a strong focus on "
